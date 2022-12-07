@@ -4,6 +4,7 @@
         "@swc/core": "^1.3.21",
         "@swc/jest": "^0.2.23",
         "@types/jest": "^29.2.4",
+        "@types/uuid": "^9.0.0",
         "@typescript-eslint/eslint-plugin": "^5.45.1",
         "@typescript-eslint/parser": "^5.45.1",
         "eslint": "^8.29.0",
@@ -21,5 +22,8 @@
         "pretest": "tsc --noEmit",
         "test": "jest",
         "tsc": "tsc"
+    },
+    "dependencies": {
+        "uuid": "^9.0.0"
     }
 }
